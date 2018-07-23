@@ -1,11 +1,7 @@
 {
-  "name": "pwa-starter-kit",
-  "version": "0.8.0",
-  "contributors": [
-    "The Polymer Authors"
-  ],
-  "license": "BSD-3-Clause",
-  "repository": "Polymer/pwa-starter-kit",
+  "name": "wickedfast",
+  "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "start": "polymer serve",
     "build": "npm run build:prpl-server && npm run build:static",
@@ -41,6 +37,7 @@
     "polyserve": "^0.27.0",
     "prpl-server": "^1.2.0",
     "puppeteer": "^1.5.0",
+    "typescript": "^2.9.2",
     "wct-browser-legacy": "^1.0.1"
   }
 }
