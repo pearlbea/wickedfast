@@ -1,12 +1,16 @@
 {
   "private": true,
   "scripts": {
-    "start": "prpl-server --root build/ --host 0.0.0.0 --https-redirect --bot-proxy https://render-tron.appspot.com/render"
+    "start": "prpl-server --root build/ --host 0.0.0.0 --https-redirect --bot-proxy https://render-tron.appspot.com/render",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": "8.x.x"
   },
   "dependencies": {
-    "prpl-server": "^1.2.0"
-  }
+    "prpl-server": "^1.2.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
